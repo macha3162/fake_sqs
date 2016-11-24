@@ -1,7 +1,7 @@
 module FakeSQS
   class Server
 
-    attr_reader :host, :port
+    attr_reader :host, :port, :host_port
 
     def initialize(options)
       @host = options.fetch(:host)
